@@ -1,0 +1,18 @@
+
+
+
+
+
+
+html {
+    font-family: monospace;
+}
+
+.catgallery {
+    box-shadow: 3px 3px #ba3333;
+    height: 120px;
+}
+#logo {
+    box-shadow: none;
+    height: 60px;
+}
