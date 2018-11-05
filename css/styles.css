@@ -7,10 +7,18 @@
 html {
     font-family: monospace;
 }
+header {display:flex }
+main {display:flex;
+flex-direction:column;}
 
 .catgallery {
     box-shadow: 3px 3px #ba3333;
-    height: 120px;
+    height:;
+}
+.pics{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 #logo {
     box-shadow: none;
