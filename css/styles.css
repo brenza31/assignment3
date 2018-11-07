@@ -5,15 +5,27 @@
 
 
 html {
-    font-family: monospace;
+    font-family: helvetica;
+    border-color: black;
 }
-header {display:flex }
+header {
+    background-color:bisque;
+    display:flex
+}
 main {display:flex;
 flex-direction:column;}
+.pics{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8px 20px 20px 20px;
+    flex-direction: row;
+}
 
 .catgallery {
-    box-shadow: 3px 3px #ba3333;
+  box-shadow: 3px 3px bisque;
     height:;
+    background-color: bisque
 }
 .pics{
     display:flex;
@@ -22,5 +34,5 @@ flex-direction:column;}
 }
 #logo {
     box-shadow: none;
-    height: 60px;
+    height: 30px;
 }
