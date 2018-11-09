@@ -10,7 +10,20 @@ html {
 }
 header {
     background-color:bisque;
-    display:flex
+    display:flex;
+    flex-direction: column;
+    
+}
+header nav ul{
+    display:flex;
+    
+}
+header nav li{
+    list-style: none;
+    
+}
+a:hover{
+    color: aquamarine;
 }
 main {display:flex;
 flex-direction:column;}
@@ -21,7 +34,14 @@ flex-direction:column;}
     margin: 8px 20px 20px 20px;
     flex-direction: row;
 }
-
+body{
+    background-image: url("../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+    background-size: cover;
+    display: flex
+        
+     
+        
+}
 .catgallery {
   box-shadow: 3px 3px bisque;
     height:;
